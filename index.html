@@ -3,12 +3,43 @@
     <head>
         <title>my file</title>
     </head>
-    <body>
+    <body bgcolor="lightgreen">
         <form action="" method="post">
-            <fieldset>
-                <legend>registration form</legend>
+            <fieldset style="width: 500px; margin: 50px auto; border: 2px solid green; text-align: center; background-color: lightcyan;">
+                <legend>Sign in</legend>
                 <label>Firsname: </label>
                 <input type="firstname" name="Firsname" required>
+                <br><br>
+                 <label>Lastname: </label>
+                <input type="lastname" name="lastname" required>
+                <br><br>
+                 <label>Username: </label>
+                <input type="username" name="username" required>
+                <br><br>
+                <label>DoB: </label>
+                <input type="date" name="date" required>
+                <br><br>
+                 <label>Email: </label>
+                <input type="email" name="email" required>
+                <br><br>
+                 <label>📞 Contact Number:</label><br>
+                <input type="tel" name="contact" pattern="[0-9]{10}" required placeholder="Enter 10-digit number">
+                <br><br>
+                 <label>Gender: </label>
+                <input type="radio" name="radio">Male
+                <input type="radio" name="radio">Female
+                <input type="radio" name="radio">Other
+                <br><br>
+                 <label>Sports: </label>
+                <input type="checkbox" name="cricket">Cricket
+                <input type="checkbox" name="vollyball">Vollyball
+                <input type="checkbox" name="polo">Polo
+                <br><br>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+                
+
+
             </fieldset>
         </form>
     </body>
