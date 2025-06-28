@@ -1,46 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>my file</title>
-    </head>
-    <body bgcolor="lightgreen">
-        <form action="pawanpuri.html" method="post">
-            <fieldset style="width: 500px; margin: 50px auto; border: 2px solid green; text-align: center; background-color: lightcyan;">
-                <legend>Sign in</legend>
-                <label>Firsname: </label>
-                <input type="firstname" name="Firsname" required>
-                <br><br>
-                 <label>Lastname: </label>
-                <input type="lastname" name="lastname" required>
-                <br><br>
-                 <label>Username: </label>
-                <input type="username" name="username" required>
-                <br><br>
-                <label>DoB: </label>
-                <input type="date" name="date" required>
-                <br><br>
-                 <label>Email: </label>
-                <input type="email" name="email" required>
-                <br><br>
-                 <label>📞 Contact Number:</label><br>
-                <input type="tel" name="contact" pattern="[0-9]{10}" required placeholder="Enter 10-digit number">
-                <br><br>
-                 <label>Gender: </label>
-                <input type="radio" name="radio">Male
-                <input type="radio" name="radio">Female
-                <input type="radio" name="radio">Other
-                <br><br>
-                 <label>Sports: </label>
-                <input type="checkbox" name="cricket">Cricket
-                <input type="checkbox" name="vollyball">Vollyball
-                <input type="checkbox" name="polo">Polo
-                <br><br>
-                <input type="reset" value="reset">
-                <input type="submit" value="submit">
-                
-
-
-            </fieldset>
-        </form>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Advanced website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: segoe UI,sans-serif;
+            line-height: 1.6;
+        }
+        header{
+            background: url(https://picsum.photos/1200/400);
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #f4f4f4;
+            text-shadow: 2px 2px 4px black;
+        }
+        nav{
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #f4f4f4;
+            margin: 0 20px;
+            text-decoration: none;
+            transition: 1.3s;
+            font-size: 20px;
+        }
+        nav a:hover{
+            color: yellow;
+        }
+        section{ 
+            padding: 48px;
+            background-color: #f4f4f4;
+        }
+        h2{
+            margin-bottom:  20px;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Advanced Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>About Me</h2>
+        <p>My name is Pawam Puri.</p>
+    </section>
+</body>
 </html>
